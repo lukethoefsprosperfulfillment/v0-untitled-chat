@@ -3,9 +3,9 @@ import Image from "next/image"
 
 const footerLinks = {
   services: [
+    { name: "Shirt Printing", href: "#printing" },
     { name: "Fulfillment", href: "#fulfillment" },
     { name: "Manufacturing", href: "#manufacturing" },
-    { name: "Shirt Printing", href: "#printing" },
     { name: "Warehousing", href: "#services" },
     { name: "Shipping", href: "#services" },
     { name: "Returns Management", href: "#services" },

@@ -8,6 +8,23 @@ import { cn } from "@/lib/utils"
 
 const pillars = [
   {
+    id: "printing",
+    icon: Shirt,
+    title: "Shirt Printing",
+    subtitle: "Custom Apparel",
+    description:
+      "Premium screen printing and DTG services for t-shirts, hoodies, sweatshirts, and sweatpants. From single samples to bulk orders.",
+    features: [
+      "T-shirts & tank tops",
+      "Hoodies & sweatshirts",
+      "Sweatpants & joggers",
+      "Screen print & DTG",
+    ],
+    color: "from-[#06a5f4] to-[#0284c7]",
+    stat: "48hr",
+    statLabel: "Turnaround",
+  },
+  {
     id: "fulfillment",
     icon: Package,
     title: "Fulfillment",
@@ -20,7 +37,7 @@ const pillars = [
       "B2B & DTC fulfillment",
       "Returns management",
     ],
-    color: "from-[#06a5f4] to-[#0284c7]",
+    color: "from-[#2c3f62] to-[#1e293b]",
     stat: "99.9%",
     statLabel: "Accuracy",
   },
@@ -37,26 +54,9 @@ const pillars = [
       "Scalable production",
       "Direct warehouse integration",
     ],
-    color: "from-[#2c3f62] to-[#1e293b]",
-    stat: "100K+",
-    statLabel: "Units/Month",
-  },
-  {
-    id: "printing",
-    icon: Shirt,
-    title: "Shirt Printing",
-    subtitle: "Custom Apparel",
-    description:
-      "Premium screen printing and DTG services for t-shirts, hoodies, sweatshirts, and sweatpants. From single samples to bulk orders.",
-    features: [
-      "T-shirts & tank tops",
-      "Hoodies & sweatshirts",
-      "Sweatpants & joggers",
-      "Screen print & DTG",
-    ],
     color: "from-[#06a5f4] to-[#2c3f62]",
-    stat: "48hr",
-    statLabel: "Turnaround",
+    stat: "Scalable",
+    statLabel: "Production",
   },
 ]
 

@@ -17,8 +17,8 @@ export default function Home() {
       <Hero />
       <ServicesPillars />
       <AboutSection />
-      <ManufacturingSection />
       <PrintingSection />
+      <ManufacturingSection />
       <ServicesGrid />
       <FAQSection />
       <CTASection />
