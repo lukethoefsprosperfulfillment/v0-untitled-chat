@@ -89,14 +89,6 @@ export function Hero() {
               <span className="text-primary mt-2 block">E-Commerce Success</span>
             </h1>
 
-            <p
-              data-animate
-              className="opacity-0 mt-6 text-xl sm:text-2xl text-primary-foreground/80 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium"
-              style={{ animationDelay: "0.3s" }}
-            >
-              Shirt Printing + Fulfillment + Manufacturing
-            </p>
-
             {/* CTA */}
             <div
               data-animate
