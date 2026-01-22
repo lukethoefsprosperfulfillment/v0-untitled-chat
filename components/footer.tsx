@@ -45,9 +45,9 @@ export function Footer() {
                 <Phone className="h-3.5 w-3.5" />
                 (813) 421-4450
               </a>
-              <a href="mailto:info@prospermfg.com" className="flex items-center gap-2 hover:text-accent-foreground transition-colors">
+              <a href="mailto:info@prosper-mfg.com" className="flex items-center gap-2 hover:text-accent-foreground transition-colors">
                 <Mail className="h-3.5 w-3.5" />
-                info@prospermfg.com
+                info@prosper-mfg.com
               </a>
             </div>
           </div>
