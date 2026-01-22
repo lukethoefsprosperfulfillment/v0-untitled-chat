@@ -10,19 +10,19 @@ import {
 
 const faqCategories = [
   {
-    title: "About Prosper Fulfillment",
+    title: "About Prosper Manufacturing",
     faqs: [
       {
-        question: "What is Prosper Fulfillment's expertise in cross-border logistics?",
-        answer: "Prosper Fulfillment specializes in seamless cross-border logistics, helping e-commerce businesses navigate international shipping, customs clearance, and inventory management with ease. We combine fulfillment, manufacturing, and printing services for a complete solution.",
+        question: "What is Prosper Manufacturing's expertise?",
+        answer: "Prosper Manufacturing specializes in custom shirt printing, fulfillment, and manufacturing services. We help e-commerce businesses with screen printing, DTG printing, inventory management, and seamless order fulfillment for a complete solution.",
       },
       {
         question: "What types of e-commerce businesses benefit most from your services?",
         answer: "Businesses specializing in apparel, electronics, cosmetics, and consumer goods often benefit most from our efficient logistics and fulfillment solutions. We serve both small DTC brands and large B2B operations.",
       },
       {
-        question: "How can Prosper Fulfillment reduce costs for international shipments?",
-        answer: "By optimizing shipping routes, leveraging duty-free exemptions like Section 321, and utilizing real-time inventory tracking, we significantly reduce operational and shipping costs—averaging 30% savings for our clients.",
+        question: "How can Prosper Manufacturing reduce costs?",
+        answer: "By combining shirt printing, fulfillment, and manufacturing under one roof, we eliminate middlemen and streamline your supply chain. Our integrated services and real-time inventory tracking help reduce operational costs significantly.",
       },
     ],
   },

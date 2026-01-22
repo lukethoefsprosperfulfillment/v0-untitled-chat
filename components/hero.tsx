@@ -36,7 +36,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/hero-bg.jpg"
-          alt="Prosper Fulfillment warehouse with screen printing and logistics operations"
+          alt="Prosper Manufacturing warehouse with screen printing and logistics operations"
           fill
           className="object-cover"
           priority
@@ -91,11 +91,10 @@ export function Hero() {
 
             <p
               data-animate
-              className="opacity-0 mt-6 text-lg sm:text-xl text-primary-foreground/80 max-w-2xl mx-auto lg:mx-0 leading-relaxed text-pretty"
+              className="opacity-0 mt-6 text-xl sm:text-2xl text-primary-foreground/80 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-medium"
               style={{ animationDelay: "0.3s" }}
             >
-              Dynamic cross-border fulfillment solutions, custom shirt printing, and manufacturing services. 
-              From print to pack to ship - we handle it all.
+              Shirt Printing + Fulfillment + Manufacturing
             </p>
 
             {/* CTA */}

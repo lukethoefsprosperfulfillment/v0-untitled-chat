@@ -62,7 +62,7 @@ export function AboutSection() {
               className="opacity-0 text-primary font-semibold text-sm uppercase tracking-wider mb-4"
               style={{ animationDelay: "0.1s" }}
             >
-              About Prosper Fulfillment
+              About Prosper Manufacturing
             </p>
             <h2
               data-animate
@@ -77,7 +77,7 @@ export function AboutSection() {
               className="opacity-0 mt-6 text-lg text-muted-foreground leading-relaxed"
               style={{ animationDelay: "0.3s" }}
             >
-              At Prosper Fulfillment, we redefine supply chain management through innovation, efficiency, and a customer-first approach. Our mission is to empower businesses with streamlined fulfillment solutions, simplifying cross-border operations while reducing costs and boosting customer satisfaction.
+              At Prosper Manufacturing, we redefine supply chain management through innovation, efficiency, and a customer-first approach. Our mission is to empower businesses with premium shirt printing, streamlined fulfillment, and manufacturing solutions that reduce costs and boost customer satisfaction.
             </p>
 
             {/* Highlights Grid */}

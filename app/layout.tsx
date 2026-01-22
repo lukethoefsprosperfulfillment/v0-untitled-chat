@@ -8,21 +8,21 @@ const _blinker = Blinker({ subsets: ["latin"], weight: ["100", "200", "300", "40
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Prosper Fulfillment | Cross-Border Fulfillment, Manufacturing & Printing',
-  description: 'Your Partner in E-Commerce Success. Dynamic cross-border fulfillment solutions, manufacturing, and printing services with 30% cost savings and 99.9% accuracy.',
-  keywords: ['fulfillment', 'cross-border logistics', 'e-commerce', 'manufacturing', 'printing', 'Section 321', 'warehousing', 'shipping'],
+  title: 'Prosper Manufacturing | Shirt Printing, Fulfillment & Manufacturing',
+  description: 'Your Partner in E-Commerce Success. Premium shirt printing, fulfillment solutions, and manufacturing services with 99.9% accuracy and fast turnaround.',
+  keywords: ['shirt printing', 'screen printing', 'DTG printing', 'fulfillment', 'manufacturing', 'e-commerce', 'warehousing', 'custom apparel'],
   generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/logo.svg',
-        type: 'image/svg+xml',
+        url: '/logo.png',
+        type: 'image/png',
       },
     ],
   },
   openGraph: {
-    title: 'Prosper Fulfillment | Cross-Border Fulfillment, Manufacturing & Printing',
-    description: 'Your Partner in E-Commerce Success. Dynamic cross-border fulfillment solutions with 30% cost savings.',
+    title: 'Prosper Manufacturing | Shirt Printing, Fulfillment & Manufacturing',
+    description: 'Your Partner in E-Commerce Success. Premium shirt printing and fulfillment solutions.',
     type: 'website',
   },
 }

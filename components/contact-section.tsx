@@ -13,8 +13,8 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "hello@prosperfulfillment.com",
-    href: "mailto:hello@prosperfulfillment.com",
+    value: "hello@prosper-mfg.com",
+    href: "mailto:hello@prosper-mfg.com",
   },
   {
     icon: Phone,
@@ -53,15 +53,38 @@ export function ContactSection() {
     return () => observer.disconnect()
   }, [])
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
     
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500))
-    
-    setIsSubmitting(false)
-    setIsSubmitted(true)
+    const formData = new FormData(e.currentTarget)
+    const data = {
+      firstName: formData.get("firstName") as string,
+      lastName: formData.get("lastName") as string,
+      email: formData.get("email") as string,
+      company: formData.get("company") as string,
+      service: formData.get("service") as string,
+      message: formData.get("message") as string,
+    }
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      })
+
+      if (!response.ok) {
+        throw new Error("Failed to send")
+      }
+
+      setIsSubmitted(true)
+    } catch (error) {
+      console.error("Contact form error:", error)
+      alert("Failed to send message. Please try again or email us directly at luke@prosperfulfillment.com")
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -162,6 +185,7 @@ export function ContactSection() {
                     <Label htmlFor="firstName">First Name</Label>
                     <Input
                       id="firstName"
+                      name="firstName"
                       placeholder="John"
                       required
                       className="h-12"
@@ -171,6 +195,7 @@ export function ContactSection() {
                     <Label htmlFor="lastName">Last Name</Label>
                     <Input
                       id="lastName"
+                      name="lastName"
                       placeholder="Doe"
                       required
                       className="h-12"
@@ -182,6 +207,7 @@ export function ContactSection() {
                   <Label htmlFor="email">Email</Label>
                   <Input
                     id="email"
+                    name="email"
                     type="email"
                     placeholder="john@company.com"
                     required
@@ -193,6 +219,7 @@ export function ContactSection() {
                   <Label htmlFor="company">Company</Label>
                   <Input
                     id="company"
+                    name="company"
                     placeholder="Your company name"
                     className="h-12"
                   />
@@ -202,6 +229,7 @@ export function ContactSection() {
                   <Label htmlFor="service">Service Interest</Label>
                   <select
                     id="service"
+                    name="service"
                     className="flex h-12 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
                     defaultValue=""
                   >
@@ -217,6 +245,7 @@ export function ContactSection() {
                   <Label htmlFor="message">Message</Label>
                   <Textarea
                     id="message"
+                    name="message"
                     placeholder="Tell us about your needs..."
                     rows={4}
                     className="resize-none"

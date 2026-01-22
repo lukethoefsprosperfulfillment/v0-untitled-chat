@@ -75,7 +75,7 @@ export function Navigation() {
             <Link href="/" className="flex items-center">
               <Image
                 src="/logo.png"
-                alt="Prosper Fulfillment"
+                alt="Prosper Manufacturing"
                 width={200}
                 height={50}
                 className={cn(
@@ -128,19 +128,8 @@ export function Navigation() {
               )}
             </div>
 
-            {/* CTA Buttons */}
-            <div className="hidden lg:flex lg:items-center lg:gap-3">
-              <Button 
-                variant="ghost" 
-                size="sm" 
-                asChild
-                className={cn(
-                  "transition-all duration-300",
-                  isScrolled && "hover:bg-white/20"
-                )}
-              >
-                <Link href="#login">Login</Link>
-              </Button>
+            {/* CTA Button */}
+            <div className="hidden lg:flex lg:items-center">
               <Button 
                 size="sm" 
                 className={cn(
@@ -199,10 +188,7 @@ export function Navigation() {
                   )}
                 </div>
               ))}
-              <div className="pt-4 flex flex-col gap-3">
-                <Button variant="outline" size="sm" asChild className="w-full bg-transparent border-white/20">
-                  <Link href="#login">Login</Link>
-                </Button>
+              <div className="pt-4">
                 <Button size="sm" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" asChild>
                   <Link href="#quote">Get a Quote</Link>
                 </Button>
