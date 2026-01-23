@@ -167,26 +167,7 @@ export function ManufacturingSection() {
           </div>
         </div>
 
-        {/* Stats */}
-        <div
-          data-animate
-          className="opacity-0 mt-12 bg-accent rounded-3xl p-8 lg:p-12"
-          style={{ animationDelay: "0.6s" }}
-        >
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {[
-              { value: "100K+", label: "Units per Month" },
-              { value: "50+", label: "Product Categories" },
-              { value: "99%", label: "Quality Rate" },
-              { value: "14", label: "Day Avg. Lead Time" },
-            ].map((stat) => (
-              <div key={stat.label}>
-                <div className="text-3xl sm:text-4xl font-bold text-accent-foreground">{stat.value}</div>
-                <p className="text-sm text-accent-foreground/70 mt-2">{stat.label}</p>
-              </div>
-            ))}
-          </div>
-        </div>
+        
       </div>
     </section>
   )

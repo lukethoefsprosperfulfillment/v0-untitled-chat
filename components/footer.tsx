@@ -4,9 +4,9 @@ import { Phone, Mail, MapPin } from "lucide-react"
 
 const footerLinks = {
   services: [
-    { name: "Shirt Printing", href: "#printing" },
-    { name: "Fulfillment", href: "#fulfillment" },
     { name: "Manufacturing", href: "#manufacturing" },
+    { name: "Screen Printing", href: "#printing" },
+    { name: "Fulfillment", href: "#fulfillment" },
     { name: "Warehousing", href: "#services" },
   ],
   company: [
@@ -38,7 +38,7 @@ export function Footer() {
               />
             </Link>
             <p className="mt-3 text-sm text-accent-foreground/70 leading-relaxed">
-              Shirt Printing + Fulfillment + Manufacturing
+              Manufacturing + Screen Printing & Fulfillment
             </p>
             <div className="mt-4 space-y-1.5 text-sm text-accent-foreground/70">
               <a href="tel:+18134214450" className="flex items-center gap-2 hover:text-accent-foreground transition-colors">

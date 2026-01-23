@@ -71,7 +71,7 @@ export function PrintingSection() {
               style={{ animationDelay: "0.2s" }}
             >
               Custom{" "}
-              <span className="text-primary">T-Shirt Printing</span>
+              <span className="text-primary">Screen Printing</span>
             </h2>
             
             <p
@@ -104,7 +104,7 @@ export function PrintingSection() {
 
             <div
               data-animate
-              className="opacity-0 mt-10 flex flex-col sm:flex-row gap-4"
+              className="opacity-0 mt-10"
               style={{ animationDelay: "0.5s" }}
             >
               <Button
@@ -113,14 +113,6 @@ export function PrintingSection() {
                 asChild
               >
                 <Link href="#quote">Get a Print Quote</Link>
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="h-12 bg-transparent"
-                asChild
-              >
-                <Link href="#contact">View Samples</Link>
               </Button>
             </div>
           </div>

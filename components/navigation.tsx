@@ -14,9 +14,9 @@ import {
 import { cn } from "@/lib/utils"
 
 const services = [
-  { name: "Shirt Printing", href: "#printing", description: "T-shirts, hoodies & apparel" },
-  { name: "Fulfillment", href: "#fulfillment", description: "B2B & DTC order fulfillment" },
   { name: "Manufacturing", href: "#manufacturing", description: "Custom product manufacturing" },
+  { name: "Screen Printing", href: "#printing", description: "T-shirts, hoodies & apparel" },
+  { name: "Fulfillment", href: "#fulfillment", description: "B2B & DTC order fulfillment" },
   { name: "Warehousing", href: "#services", description: "Scalable storage solutions" },
   { name: "Shipping", href: "#services", description: "Domestic & international" },
   { name: "Returns Management", href: "#services", description: "Seamless processing" },

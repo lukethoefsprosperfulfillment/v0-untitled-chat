@@ -39,7 +39,7 @@ export default function TermsOfService() {
                 Prosper Manufacturing provides:
               </p>
               <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
-                <li><strong>Shirt Printing:</strong> Screen printing and DTG services for t-shirts, hoodies, sweatshirts, and sweatpants</li>
+                <li><strong>Screen Printing:</strong> Screen printing and DTG services for t-shirts, hoodies, sweatshirts, and sweatpants</li>
                 <li><strong>Fulfillment:</strong> B2B and DTC order fulfillment, warehousing, pick and pack, and shipping services</li>
                 <li><strong>Manufacturing:</strong> Custom product manufacturing and quality control</li>
               </ul>

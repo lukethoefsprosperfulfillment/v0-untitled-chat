@@ -8,9 +8,26 @@ import { cn } from "@/lib/utils"
 
 const pillars = [
   {
+    id: "manufacturing",
+    icon: Factory,
+    title: "Manufacturing",
+    subtitle: "Custom Production",
+    description:
+      "Full-scale manufacturing capabilities with quality control at every step. From prototyping to mass production, we deliver excellence.",
+    features: [
+      "Custom product development",
+      "Quality assurance testing",
+      "Scalable production",
+      "Direct warehouse integration",
+    ],
+    color: "from-[#06a5f4] to-[#0284c7]",
+    stat: "Scalable",
+    statLabel: "Production",
+  },
+  {
     id: "printing",
     icon: Shirt,
-    title: "Shirt Printing",
+    title: "Screen Printing",
     subtitle: "Custom Apparel",
     description:
       "Premium screen printing and DTG services for t-shirts, hoodies, sweatshirts, and sweatpants. From single samples to bulk orders.",
@@ -20,7 +37,7 @@ const pillars = [
       "Sweatpants & joggers",
       "Screen print & DTG",
     ],
-    color: "from-[#06a5f4] to-[#0284c7]",
+    color: "from-[#2c3f62] to-[#1e293b]",
     stat: "48hr",
     statLabel: "Turnaround",
   },
@@ -37,26 +54,9 @@ const pillars = [
       "B2B & DTC fulfillment",
       "Returns management",
     ],
-    color: "from-[#2c3f62] to-[#1e293b]",
+    color: "from-[#06a5f4] to-[#2c3f62]",
     stat: "99.9%",
     statLabel: "Accuracy",
-  },
-  {
-    id: "manufacturing",
-    icon: Factory,
-    title: "Manufacturing",
-    subtitle: "Custom Production",
-    description:
-      "Full-scale manufacturing capabilities with quality control at every step. From prototyping to mass production, we deliver excellence.",
-    features: [
-      "Custom product development",
-      "Quality assurance testing",
-      "Scalable production",
-      "Direct warehouse integration",
-    ],
-    color: "from-[#06a5f4] to-[#2c3f62]",
-    stat: "Scalable",
-    statLabel: "Production",
   },
 ]
 

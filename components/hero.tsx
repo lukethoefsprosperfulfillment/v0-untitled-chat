@@ -77,7 +77,7 @@ export function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-primary" />
               </span>
-              Shirt Printing + Fulfillment + Manufacturing
+              Manufacturing + Screen Printing & Fulfillment
             </div>
 
             <h1
@@ -85,8 +85,8 @@ export function Hero() {
               className="opacity-0 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground tracking-tight"
               style={{ animationDelay: "0.2s" }}
             >
-              <span className="text-balance block">Your Partner in</span>
-              <span className="text-primary mt-2 block">E-Commerce Success</span>
+              <span className="text-balance block">End-to-End Apparel</span>
+              <span className="text-primary mt-2 block">Production & Fulfillment</span>
             </h1>
 
             {/* CTA */}
@@ -113,7 +113,7 @@ export function Hero() {
             {[
               { value: "99.9%", label: "Order Accuracy", delay: "0.3s" },
               { value: "30%", label: "Cost Reduction", delay: "0.4s" },
-              { value: "24hr", label: "Turnaround", delay: "0.5s" },
+              { value: "Fast", label: "Turnaround", delay: "0.5s" },
               { value: "1000+", label: "Happy Clients", delay: "0.6s" },
             ].map((stat) => (
               <div
