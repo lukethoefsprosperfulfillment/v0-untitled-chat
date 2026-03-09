@@ -38,7 +38,7 @@ This email was sent from the contact form at prosper-mfg.com
         Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "Prosper Manufacturing <noreply@prosper-mfg.com>",
+        from: "Prosper Manufacturing <onboarding@resend.dev>",
         to: "luke@prosperfulfillment.com",
         reply_to: email,
         subject: `New Contact: ${firstName} ${lastName} - ${service || "General Inquiry"}`,
