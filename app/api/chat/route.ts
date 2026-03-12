@@ -1,5 +1,3 @@
-'use server'
-
 import { streamText } from 'ai'
 
 const systemPrompt = `You are a helpful AI assistant for Prosper Manufacturing, a company specializing in screen printing, fulfillment, and manufacturing services. 
