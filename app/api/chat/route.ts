@@ -1,5 +1,4 @@
-import { grok } from '@ai-sdk/grok'
-import { generateText } from 'ai'
+import { streamText } from 'ai'
 
 const systemPrompt = `You are a helpful AI assistant for Prosper Manufacturing, a company specializing in screen printing, fulfillment, and manufacturing services. 
 
@@ -35,16 +34,14 @@ export async function POST(request: Request) {
       )
     }
 
-    const result = await generateText({
-      model: grok('grok-2-1212'),
+    const result = streamText({
+      model: 'xai/grok-2',
       system: systemPrompt,
       messages: messages as Message[],
       maxTokens: 500,
     })
 
-    return Response.json({
-      content: result.text,
-    })
+    return result.toTextStreamResponse()
   } catch (error) {
     console.error('Chat API error:', error)
     return Response.json(

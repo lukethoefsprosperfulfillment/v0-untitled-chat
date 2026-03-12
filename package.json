@@ -9,7 +9,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@ai-sdk/grok": "latest",
     "@expo/dom-webview": "latest",
     "@expo/metro-runtime": "latest",
     "@hookform/resolvers": "^3.10.0",
