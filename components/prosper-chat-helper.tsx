@@ -6,8 +6,9 @@ export function ProsperChatHelper() {
       src="https://prosper-chat-helper.lovable.app"
       style={{
         border: 'none',
+        outline: 'none',
         position: 'fixed',
-        bottom: '20px',
+        bottom: '40px',
         right: '20px',
         width: '380px',
         height: '520px',
