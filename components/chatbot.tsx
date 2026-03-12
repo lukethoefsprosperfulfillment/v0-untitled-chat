@@ -56,11 +56,22 @@ export function ChatBot() {
 
       if (!response.ok) throw new Error('Failed to get response')
 
-      const data = await response.json()
+      const reader = response.body?.getReader()
+      const decoder = new TextDecoder()
+      let fullText = ''
+
+      if (reader) {
+        while (true) {
+          const { done, value } = await reader.read()
+          if (done) break
+          fullText += decoder.decode(value, { stream: true })
+        }
+      }
+
       const assistantMessage: Message = {
         id: (Date.now() + 1).toString(),
         role: 'assistant',
-        content: data.content,
+        content: fullText || 'I apologize, but I couldn\'t generate a response. Please try again.',
       }
 
       setMessages((prev) => [...prev, assistantMessage])
