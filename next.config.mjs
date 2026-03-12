@@ -8,7 +8,7 @@ const nextConfig = {
     qualities: [75, 90],
   },
   turbopack: {
-    root: '.',
+    root: process.cwd(),
   },
 }
 
