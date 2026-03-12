@@ -7,8 +7,8 @@ export function ProsperChatHelper() {
       style={{
         border: 'none',
         position: 'fixed',
-        bottom: 0,
-        right: 0,
+        bottom: '20px',
+        right: '20px',
         width: '380px',
         height: '520px',
         zIndex: 9999,
