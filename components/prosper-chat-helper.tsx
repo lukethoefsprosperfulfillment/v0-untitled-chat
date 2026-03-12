@@ -13,8 +13,9 @@ export function ProsperChatHelper() {
         width: '380px',
         height: '520px',
         zIndex: 9999,
-        borderRadius: '16px',
-        boxShadow: '0 8px 30px rgba(0,0,0,0.15)',
+        borderRadius: '0',
+        boxShadow: 'none',
+        background: 'transparent',
       }}
       allow="clipboard-write"
       title="Prosper Manufacturing Chat Helper"
