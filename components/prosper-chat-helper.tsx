@@ -11,7 +11,7 @@ export function ProsperChatHelper() {
         bottom: '20px',
         right: '20px',
         width: '380px',
-        height: '540px',
+        height: '545px',
         zIndex: 9999,
         borderRadius: '0',
         boxShadow: 'none',
