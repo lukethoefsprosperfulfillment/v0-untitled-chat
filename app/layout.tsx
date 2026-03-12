@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Blinker, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { ChatBot } from '@/components/chatbot'
+import { ChatWidget } from '@/components/chat-widget'
 import './globals.css'
 
 const _blinker = Blinker({ subsets: ["latin"], weight: ["100", "200", "300", "400", "600", "700", "800", "900"] });
@@ -37,6 +38,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans antialiased`}>
         {children}
+        <ChatWidget />
         <ChatBot />
         <Analytics />
       </body>
