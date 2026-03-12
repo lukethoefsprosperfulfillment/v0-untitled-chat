@@ -1,6 +1,6 @@
 'use client'
 
-export function ChatWidget() {
+export function ProsperChatHelper() {
   return (
     <iframe
       src="https://prosper-chat-helper.lovable.app"
@@ -16,6 +16,7 @@ export function ChatWidget() {
         boxShadow: '0 8px 30px rgba(0,0,0,0.15)',
       }}
       allow="clipboard-write"
+      title="Prosper Manufacturing Chat Helper"
     />
   )
 }
