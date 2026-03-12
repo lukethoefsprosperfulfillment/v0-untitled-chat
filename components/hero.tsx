@@ -40,7 +40,6 @@ export function Hero() {
           fill
           className="object-cover"
           priority
-          quality={90}
         />
         {/* Overlay for text readability */}
         <div className="absolute inset-0 bg-gradient-to-r from-accent/95 via-accent/80 to-accent/60" />
