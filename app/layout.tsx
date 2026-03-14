@@ -1,5 +1,6 @@
 import React from "react"
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { Blinker, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
@@ -37,6 +38,12 @@ export default function RootLayout({
       <body className={`font-sans antialiased`}>
         {children}
         <Analytics />
+        <Script
+          src="https://prosper-chat.odpkye.easypanel.host/widget.js"
+          data-api-base="https://prosper-chat.odpkye.easypanel.host"
+          defer
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
