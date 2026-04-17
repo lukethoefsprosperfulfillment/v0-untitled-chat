@@ -5,8 +5,11 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    qualities: [75, 90],
   },
- 
+  turbopack: {
+    root: process.cwd(),
+  },
 }
 
 export default nextConfig
