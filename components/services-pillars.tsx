@@ -27,10 +27,10 @@ const pillars = [
   {
     id: "printing",
     icon: Shirt,
-    title: "Screen Printing in Tijuana",
-    subtitle: "Premium Apparel Services",
+    title: "Screen Printing",
+    subtitle: "Custom Apparel",
     description:
-      "Professional screen printing and DTG services for t-shirts, hoodies, sweatshirts, and sweatpants. Our Tijuana facility delivers high-quality custom apparel with fast turnaround times. From single samples to bulk orders, we handle all your printing needs.",
+      "Premium screen printing and DTG services for t-shirts, hoodies, sweatshirts, and sweatpants. From single samples to bulk orders.",
     features: [
       "T-shirts & tank tops",
       "Hoodies & sweatshirts",
@@ -44,10 +44,10 @@ const pillars = [
   {
     id: "fulfillment",
     icon: Package,
-    title: "IMMEX Fulfillment Services",
+    title: "Fulfillment",
     subtitle: "Cross-Border Excellence",
     description:
-      "End-to-end IMMEX fulfillment with Tijuana logistics expertise. 24-hour package injection and same-day shipping options. B2B and DTC services with real-time inventory management and seamless cross-border logistics to North America.",
+      "End-to-end order fulfillment with 24-hour package injection. B2B and DTC services with real-time inventory management and seamless logistics.",
     features: [
       "Real-time inventory tracking",
       "Same-day shipping options",
@@ -99,15 +99,16 @@ export function ServicesPillars() {
             className="opacity-0 text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground tracking-tight text-balance"
             style={{ animationDelay: "0.2s" }}
           >
-            Screen Printing & Fulfillment Solutions in{" "}
-            <span className="text-primary">Tijuana</span>
+            Three Pillars of{" "}
+            <span className="text-primary">E-Commerce Success</span>
           </h2>
           <p
             data-animate
             className="opacity-0 mt-6 text-lg text-muted-foreground leading-relaxed"
             style={{ animationDelay: "0.3s" }}
           >
-            Complete fulfillment IMMEX services, screen printing expertise, and manufacturing capabilities designed to streamline your operations, reduce costs, and accelerate growth across North American markets.
+            Comprehensive solutions designed to streamline your operations, reduce costs,
+            and accelerate growth across fulfillment, manufacturing, and printing.
           </p>
         </div>
 

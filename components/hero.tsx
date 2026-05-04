@@ -84,8 +84,8 @@ export function Hero() {
               className="opacity-0 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground tracking-tight"
               style={{ animationDelay: "0.2s" }}
             >
-              <span className="text-balance block">Screen Printing & Fulfillment</span>
-              <span className="text-primary mt-2 block">in Tijuana with IMMEX Services</span>
+              <span className="text-balance block">End-to-End Apparel</span>
+              <span className="text-primary mt-2 block">Production & Fulfillment</span>
             </h1>
 
             {/* CTA */}

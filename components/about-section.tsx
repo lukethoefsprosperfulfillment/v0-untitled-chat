@@ -69,15 +69,15 @@ export function AboutSection() {
               className="opacity-0 text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground tracking-tight text-balance"
               style={{ animationDelay: "0.2s" }}
             >
-              Tijuana&apos;s Leading{" "}
-              <span className="text-primary">Screen Printing & Fulfillment</span> Expert
+              We&apos;re the{" "}
+              <span className="text-primary">Gold Standard</span> in Cross-Border Fulfillment
             </h2>
             <p
               data-animate
               className="opacity-0 mt-6 text-lg text-muted-foreground leading-relaxed"
               style={{ animationDelay: "0.3s" }}
             >
-              Prosper Manufacturing is your trusted partner for screen printing and fulfillment in Tijuana with full IMMEX certification. We specialize in cross-border logistics, delivering premium apparel printing, streamlined fulfillment, and manufacturing solutions that reduce costs while boosting customer satisfaction. Our Tijuana location provides strategic access to North American markets with customs expertise and same-day shipping capabilities.
+              At Prosper Manufacturing, we redefine supply chain management through innovation, efficiency, and a customer-first approach. Our mission is to empower businesses with premium shirt printing, streamlined fulfillment, and manufacturing solutions that reduce costs and boost customer satisfaction.
             </p>
 
             {/* Highlights Grid */}
