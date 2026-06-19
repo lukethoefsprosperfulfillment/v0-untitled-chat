@@ -35,8 +35,8 @@ export function Hero() {
       {/* AI Generated Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-bg.jpg"
-          alt="Prosper Manufacturing warehouse with screen printing and logistics operations"
+          src="/images/hero-bg.png"
+          alt="Industrial screen printing press applying vibrant ink to apparel in a warm-lit production facility"
           fill
           className="object-cover"
           priority
