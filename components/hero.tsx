@@ -36,7 +36,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/hero-bg.png"
-          alt="Industrial screen printing press applying vibrant ink to apparel in a warm-lit production facility"
+          alt="Modern apparel facility combining a screen printing operation and a fulfillment warehouse with packaging and logistics"
           fill
           className="object-cover"
           priority
